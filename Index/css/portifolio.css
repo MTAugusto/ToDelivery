@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+p{
+    text-align: center;
+    font-size: 19px;
+    padding: 16px;
+}
+
+.container{
+    background-image: url("../images/arts/adult-blur-blurred-background-687824.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;    
+    background-attachment: fixed;
+    border-bottom: 5px solid #fd9108;
+
+}
+.topbar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    height: 70px;
+}
+.menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;   
+}
+.menu > div {
+    font-size: 1.2em;
+    text-decoration: none;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    
+}
+.menu > div:hover {
+    border-bottom: 5px solid #580d61;
+}
+.menu > div > a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    padding-left:  15px;
+}
+.logo > img{
+    height: 50px;
+    width: 160px;    
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    top: 467px;
+    margin-left: 100px;
+    font-size: 2em;
+    color: white;
+}
+.descricao > img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.backgroudcolor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 13, 97, 0.2);
+    position: relative;
+}
+.btn-descricao {
+    background-color: rgb(66, 152, 102);
+    border: none;
+    color: white;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 220px;
+    font-weight: 600;
+}
+
+.vantagens{
+
+    height: 330px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+    width: 100%;
+    border-bottom: 5px solid #fd9108;
+}
+
+.vantagens > div{
+
+    font-size: 1.2em;
+    text-decoration: none;        
+    height: 270px;
+    padding: 7px;
+    width: 390px;
+    margin: 5px; 
+    box-shadow: 0px 0px 1px #d0d0d0;
+
+
+}
+.vantagens > div > h2{
+    
+    padding: 15px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.publicidade{    
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    background-color: #580d61;
+    border-bottom: 5px solid #fd9108;
+}
+.img_publicidade{
+    
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+    padding-left:  15px;
+    
+}
+.fr_publicidade{  
+    padding: 15px;
+    color: white;
+    text-align: center;
+    height: 270px;
+}
+.fr_publicidade > div > h2{
+    height: 80px;
+    padding: 15px;
+}
+.fr_publicidade > div > p{
+
+    padding: 1px;
+    height: 140px;
+}
+.comofunciona{         
+    height: 430px;    
+    border-bottom: 5px solid #fd9108;
+}
+.dv_title{
+    text-align: center;
+    height: 40px;
+    padding: 30px;
+}
+.dv_row{
+    display: flex;
+    justify-content: center;
+}
+.dv_itens{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;    
+    width: 300px;
+    font-size: 1.2em;
+    text-decoration: none;        
+    padding: 7px;    
+    margin: 5px;     
+    height: 300px;
+}
+.dv_itens > div{
+    height: 90px;
+    text-align: center;
+}
+.dv_itens > div > p{
+    width: 215px;    
+    display: inline-block;
+}
+.dv_itens >div > img {    
+    
+    margin: 0px auto;
+    width: 80px;    
+}
